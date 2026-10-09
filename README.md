@@ -71,7 +71,12 @@ If you encounter issues, ensure your virtual environment is active and dependenc
 Contributions are welcome!  
 Fork the repository, create a feature branch, and submit a pull request with detailed notes.  
 Please follow best practices for code quality, documentation, and security compliance.
-
+## 🧭 Roadmap
+- [ ] Integrate AWS Bedrock for LLM remediation  
+- [ ] Add SOC triage assistant  
+- [ ] Deploy to AWS EKS with OPA admission control  
+- [ ] Add Terraform modules for multi‑account governance  
+ 
 ## ⚖️ License
 This project is licensed under the [MIT License](LICENSE).  
 You are free to use, modify, and distribute this project with proper attribution.
