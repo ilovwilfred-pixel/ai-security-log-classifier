@@ -1,4 +1,9 @@
 # 🧠 AI Security Log Classifier
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-Framework-green)
+![Terraform](https://img.shields.io/badge/Terraform-IaC-purple)
+![AWS](https://img.shields.io/badge/AWS-Security-orange)
+
 ### Enterprise‑Grade AI‑Driven DevSecOps Security Platform
 
 A cloud‑ready, intelligent security analytics engine that automatically classifies, detects, and remediates threats across logs and pipelines.  
@@ -56,4 +61,13 @@ curl -X POST http://localhost:8000/classify \
   "classification": "Critical Threat",
   "remediation": "IAM policy updated, access revoked"
 }
+## 🧩 Testing Locally
+Once your FastAPI app is running, open a terminal and run the `curl` command above.  
+You should see the JSON response confirming that the classifier detected and remediated the threat.  
+If you encounter issues, ensure your virtual environment is active and dependencies are installed correctly.
+
+## 🤝 Contributing
+Contributions are welcome!  
+Fork the repository, create a feature branch, and submit a pull request with detailed notes.  
+Please follow best practices for code quality, documentation, and security compliance.
 
