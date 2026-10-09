@@ -1,4 +1,5 @@
 # 🧠 AI Security Log Classifier
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-Framework-green)
 ![Terraform](https://img.shields.io/badge/Terraform-IaC-purple)
@@ -71,3 +72,6 @@ Contributions are welcome!
 Fork the repository, create a feature branch, and submit a pull request with detailed notes.  
 Please follow best practices for code quality, documentation, and security compliance.
 
+## ⚖️ License
+This project is licensed under the [MIT License](LICENSE).  
+You are free to use, modify, and distribute this project with proper attribution.
