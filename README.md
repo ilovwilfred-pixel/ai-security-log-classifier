@@ -47,3 +47,13 @@ python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 uvicorn src.main:app --reload
+## 🧪 Usage
+```bash
+curl -X POST http://localhost:8000/classify \
+-H "Content-Type: application/json" \
+-d '{"log": "Unauthorized access attempt detected"}'
+{
+  "classification": "Critical Threat",
+  "remediation": "IAM policy updated, access revoked"
+}
+
